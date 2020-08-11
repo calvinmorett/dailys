@@ -16,6 +16,9 @@ features = ["blog"]
 min_version = "0.50"
 
 [params]
+mainSections = ["posts"]
+
+[params]
 staticPrefix = ""
 # extraCSSFiles = ["css/foo.css", "css/bar.css"]
 extraCSSFiles = []
