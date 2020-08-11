@@ -1,5 +1,5 @@
-baseURL = "http://example.org/"
+baseURL = "https://github.com/calvinmorett/dailys"
 languageCode = "en-us"
-title = "My New Hugo Site"
-theme = "ananke"
+title = "dailys"
 paginate = 10
+theme = "yinyang"
