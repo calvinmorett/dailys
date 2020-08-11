@@ -10,7 +10,7 @@ DefaultContentLanguage = "en"
 
 [languages]
   [languages.en]
-    contentDir = "content/en"
+    contentDir = "content/posts"
     languageName = "English"
     weight = 1
 
