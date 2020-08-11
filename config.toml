@@ -1,4 +1,28 @@
-baseURL = "https://github.com/calvinmorett/dailys/themes/yingyang/"
+baseURL = "https://example.com"
 languageCode = "en-us"
-title = "dailys"
+title = "Example YinYong Blog"
 theme = "yinyang"
+DefaultContentLanguage = "en"
+
+[author]
+  name = "Joway Wang"
+  homepage = "https://github.com/calvinmorett/"
+
+[languages]
+  [languages.en]
+    contentDir = "content/en"
+    languageName = "English"
+    weight = 1
+
+[params]
+disqus = "joway" # disqus account name
+extraHead = ''
+mainSections = ["posts"]
+
+[[params.socials]]
+name = "RSS"
+link = "/index.xml"
+
+[[params.socials]]
+name = "About"
+link = "https://github.com/calvinmorett/dailys"
