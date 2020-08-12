@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Sorts+Mill+Goudy:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700&display=swap');
+
+
 :root {
     --themebg: #fff;
     --theme-color: rgba(102, 204, 255, .8);
@@ -25,7 +29,7 @@
     box-sizing: inherit;
 }
 html {
-    font-family: "Akzidenz-Grotesk-Bq-Regular", Arial, sans-serif;
+font-family: 'Roboto', Arial, sans-serif;
     font-size: 1em;
     line-height: 1.1875;
     background: white;
@@ -177,7 +181,6 @@ header{
 }
 .post-title {
     font-weight: 600;
-    font-family: "Akzidenz-Grotesk-Bq-Medium", Arial, sans-serif;
     font-size: 28px;
     line-height: 1;
     position: static;
@@ -192,13 +195,13 @@ header{
 .site-title {
     border-top: 8px solid black;
     padding-top: 11px;
-    font-family: "Akzidenz-Grotesk-Bq-Regular", Arial, sans-serif;
+font-family: 'Roboto', Arial, sans-serif;
     font-size: 32px;
     line-height: 1;
     z-index: 2;
 }
 .signatures {
-    xfont-family: 'Sorts Mill Goudy', serif;
+    font-family: 'Sorts Mill Goudy', serif;
 }
 .signatures a:link,
 .signatures a:visited {
