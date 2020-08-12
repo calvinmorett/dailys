@@ -176,8 +176,7 @@ strong {
 header{
     padding-top: 20px;}
 .site-header {
-    height: 100px;
-    max-height: 200px;
+    height: auto;
     margin: 0 auto 0;
     display: block;
     width: 800px;
