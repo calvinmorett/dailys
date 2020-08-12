@@ -124,6 +124,7 @@ a {
     color: var(--themefontc);
     text-decoration: underline;
     opacity: 1;
+    transition: all .18s ease;
 }
 /* Improve readability when focused and also mouse hovered in all browsers.  */
 a,
@@ -133,7 +134,6 @@ a:visited {
     color: var(--themefontc);
     text-decoration: none;
     opacity: 1;
-    transition: all .8s ease;
 }
 
 a:hover,
