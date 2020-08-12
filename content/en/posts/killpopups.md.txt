@@ -1,5 +1,5 @@
 +++
-title = "JS Bookmarklet to Kill Pop-up Overlays"
+title = "Fuck Popups 2019"
 description = "Free, Just enter your bank info!"
 tags = [
     "code",
