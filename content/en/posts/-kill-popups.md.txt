@@ -1,10 +1,20 @@
----
-date: 2019-11-08T10:58:08-04:00
-description: "Free, Just enter your bank info!"
-featured_image: "/images/-popup-hero.jpg"
-tags: ["Code", "Bookmarklet", "Tutorial", "Utility", "Marketing"]
-title: "JS Bookmarklet to Kill Pop-up Overlays"
----
++++
+title = "JS Bookmarklet to Kill Pop-up Overlays"
+description = "Free, Just enter your bank info!"
+tags = [
+    "code",
+    "bookmarklet",
+    "tutorial",
+    "utility",
+    "marketing"
+]
+featured_image = "/images/-popup-hero.jpg"
+date = "2019-11-08"
+categories = [
+    "code",
+]
+menu = "main"
++++
 
 
 ## What's the big deal?
