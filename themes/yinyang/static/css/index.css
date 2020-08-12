@@ -158,9 +158,11 @@ strong {
     font-size: 10pt;
 }
 .post-content {
-    margin-top: 185px;
+    margin-top: 165px;
 }
 /* header */
+header{
+    padding-top: 20px;}
 .site-header {
     height: 180px;
     max-height: 200px;
@@ -171,7 +173,6 @@ strong {
     position: fixed;
     top: 0;
     padding: 0;
-    padding-top: 20px;
     left: 0;
     right: 0;
     background: var(--themebg);
@@ -184,7 +185,7 @@ strong {
     font-size: 28px;
     line-height: 1;
     position: fixed;
-    top: 95px;
+    top: 105px;
     border-top: 8px solid;
     padding-top: 8px;
     z-index: 1;
