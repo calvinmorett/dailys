@@ -1,7 +1,7 @@
 {{ $related := (where site.RegularPages "Type" "in" site.Params.mainSections).Related . | first 3 }}
 {{ with $related }}
 <div class="releated-content">
-  <button onclick="topFunction()" id="totop" title="Back to Top">Back to Top</button>
+  
   <h2>Related Posts</h2>
   
   <ul class="posts">
@@ -10,7 +10,4 @@
     {{ end }}
   </ul>
 </div>
-
-
-
 {{ end }}
