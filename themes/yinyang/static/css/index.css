@@ -124,7 +124,6 @@ a {
     color: var(--themefontc);
     text-decoration: underline;
     opacity: 1;
-    transition: all 0.18s ease;
 }
 /* Improve readability when focused and also mouse hovered in all browsers.  */
 a,
