@@ -1,27 +1,51 @@
 /* global */
-
-body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+html,body{
+    font-family: Verdana, Geneva, -apple-system, BlinkMacSystemFont, "Segoe UI",
                Roboto, Oxygen-Sans, Ubuntu, Cantarell,
                "Helvetica Neue", sans-serif;
+    font-size: 10pt;
   -webkit-font-smoothing: antialiased;
+}
+body {
+    font-size: 10pt;
   margin: 0 20px;
 }
-
+body:after{
+    content:'back';
+        position:fixed;
+    bottom:20px;
+    left:20px;
+    display:inline-block;
+    background:#f7f7f7;
+    color:#a4a4a4;
+    width:auto;
+    padding:10px;
+    font-size:10px;
+    font-weight:bold;
+    text-transform:uppercase;
+    
+}
 article {
   max-width: 800px;
   margin-left: auto;
   margin-right: auto;
 }
 
-a {
+a:link,
+a:visited{
+    font-weight:normal;
   color: #000;
   text-decoration: none;
+    border-bottom:solid 1px rgba(0, 0, 0, 0);
+    transition:border .16s ease;
 }
 
-a:hover {
-  font-weight: 600;
-  text-decoration: underline;
+a:hover,
+a:active {
+    font-weight:normal;
+  text-decoration: none;
+    border-bottom:solid 1px rgb(0, 0, 0);
+
 }
 
 .post-ads {
@@ -31,7 +55,7 @@ a:hover {
 /* overwrite github-markdown */
 
 .markdown-body {
-  font-size: 18px;
+    font-size: 10pt;
 }
 
 /* i18n */
@@ -43,12 +67,14 @@ a:hover {
 /* header */
 
 .site-title {
-  font-size: 3rem;
+    font-size: 10pt;
   margin-top: 32px;
 }
 
 .site-date-catalog {
-  font-size: 2rem;
+    font-size: 9px;
+    letter-spacing: 1px;
+    margin: 2.75em 0 2px;
 }
 
 .signatures {
@@ -79,35 +105,61 @@ a:hover {
   min-height: 70%;
 }
 
-.posts-date,
-.posts-title {
-  font-size: 1.2rem;
+.posts-date{
+    font-weight: normal;
+    font-style: normal;
+    padding: 0;
+    text-align: left;
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    font-size: 9px;
+    padding-top: 4px;
 }
+.posts-title {
+  font-weight: bold;
+    font-size: 11pt;
+}
+
 
 .posts-line {
   margin: 12px 0;
 }
 .posts-categories {
-  font-size: 0.8rem;
+    font-size: 10pt;
   margin: auto;
   text-align: center;
 }
-
 .posts-category {
-  padding: 3px;
-  border: #000 2px solid;
-  margin-bottom: 3px;
+    padding: 0;
+    margin-bottom: 3px;
+    border:0;
+    padding-top:4px;
+    font-size: 9px;
+}
+.posts-category a:link,
+.posts-category a:visited {
+    padding: 3px;
+    margin-bottom: 3px;
+    box-shadow:none;
+    transition:none;
+}
+.posts-category a:hover,
+.posts-category a:active{
+    color:#fff;
+    text-decoration:none;
+    box-shadow:inset 0 0 0 250px #000;
 }
 
 .site-footer {
-  margin-top: 50px;
-  margin-bottom: 80px;
-  display: flex;
-  justify-content: flex-end;
-  padding: 12px 0;
-  border-width: 3px;
-  border-style: solid none;
-  border-color: #000;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    xisplay: flex;
+    justify-content: flex-end;
+    padding: 12px 0;
+    border-width: 3px;
+    border-style: solid none;
+    border-color: #000;
+    display: none;
 }
 
 .site-footer-item {
@@ -141,7 +193,7 @@ a:hover {
 }
 
 .post-title {
-  font-size: 2.5rem;
+    font-size: 10pt;
   font-weight: 600;
 }
 
@@ -153,9 +205,13 @@ a:hover {
 }
 
 .post-date {
-  font-weight: 800;
-  font-style: italic;
+  font-weight: normal;
+  font-style: normal;
+    font-size: 9px;
+    letter-spacing: 1px;
+    margin: 2.75em 0 2px;
 }
+
 
 .post-author {
   float: right;
@@ -169,8 +225,7 @@ a:hover {
 .post-content p {
   hyphens: auto;
   line-height: 1.8;
-  /* text-align: justify; */
-  text-justify: ideographic;
+  text-align: left;
   margin-bottom: 1em;
 }
 
@@ -190,7 +245,7 @@ a:hover {
 /* taxonomy */
 
 .taxonomy-term {
-  font-size: 3rem;
+    font-size: 10pt;
 }
 
 /* gallery */
@@ -203,7 +258,7 @@ a:hover {
   text-align: center;
 }
 .gallery-img-desc {
-  font-size: 0.8em;
+    font-size: 10pt;
   font-weight: 800;
 }
 
