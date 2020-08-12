@@ -1,7 +1,9 @@
 /* global */
 
 body {
-  font-family: "Bree Serif", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+               Roboto, Oxygen-Sans, Ubuntu, Cantarell,
+               "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   margin: 0 20px;
 }
@@ -50,7 +52,9 @@ a:hover {
 }
 
 .signatures {
-  font-family: "Permanent Marker", Impact, Charcoal, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+               Roboto, Oxygen-Sans, Ubuntu, Cantarell,
+               "Helvetica Neue", sans-serif;
 }
 
 .signatures a {
