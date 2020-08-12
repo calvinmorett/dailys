@@ -284,9 +284,14 @@ header {
     justify-content: flex-end;
     color: var(--themefontc);
 }
-
 .site-footer-item {
     margin-right: 12px;
+    position: fixed;
+    bottom: 20px;
+    padding:10px;
+    background:var(--themebuttbg);
+    background:var(--themebuttfontc);
+    display:block;
 }
 
 /* post */
