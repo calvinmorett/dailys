@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700&display=swap');
 
 
+
 :root {
     --themebg: #fff;
     --theme-color: rgba(102, 204, 255, .8);
@@ -29,7 +30,8 @@
     box-sizing: inherit;
 }
 html {
-font-family: 'Roboto', Arial, sans-serif;
+
+    font-family: 'Roboto', Helvetica, Arial, Sans-Serif, sans-serif;
     font-size: 1em;
     line-height: 1.1875;
     background: white;
@@ -160,8 +162,9 @@ strong {
     margin-top: 0;
 }
 /* header */
-header{
-    padding-top: 20px;}
+header {
+    padding-top: 20px;
+}
 .site-header {
     height: auto;
     margin: 0 auto 0;
@@ -184,12 +187,11 @@ header{
 }
 .post-author {
     font-size: 20px;
-    display:none;
+    display: none;
 }
 .site-title {
     border-top: 8px solid black;
     padding-top: 11px;
-font-family: 'Roboto', Arial, sans-serif;
     font-size: 32px;
     line-height: 1;
     z-index: 2;
@@ -210,7 +212,7 @@ font-family: 'Roboto', Arial, sans-serif;
     font-size: 10px;
     padding: 10px;
     border: 1px solid;
-    display: block;
+    xdisplay: block;
     font-weight: bold;
     letter-spacing: 1px;
     margin: 2.75em 0 2px;
