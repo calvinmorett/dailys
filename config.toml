@@ -1,6 +1,6 @@
 baseURL = "https://example.com"
 languageCode = "en-us"
-title = "Calvin's Progress and What he's working on."
+title = "Supposed to be a blog about what Calvin is working on"
 theme = "yinyang"
 DefaultContentLanguage = "en"
 
@@ -18,7 +18,7 @@ DefaultContentLanguage = "en"
 disqus = "calvin-2" # disqus account name
 extraHead = ''
 mainSections = ["posts"]
-headTitle = "Progress Log"
+headTitle = "index"
 
 [[params.socials]]
 name = "RSS"
