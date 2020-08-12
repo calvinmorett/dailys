@@ -199,6 +199,7 @@ header{
 }
 .post-author {
     font-size: 20px;
+    display:none;
 }
 .site-title {
     border-top: 8px solid black;
