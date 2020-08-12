@@ -128,14 +128,22 @@ article {
 a {
     background: transparent;
 }
-
+.content p a,
+.content p a:link,
+.content p a:visited {
+    font-weight: normal;
+    color: var(--themefontc);
+    text-decoration: underline;
+    opacity: 1;
+    transition: all .8s ease;
+}
 /* Improve readability when focused and also mouse hovered in all browsers.  */
 a,
 a:link,
 a:visited {
     font-weight: normal;
     color: var(--themefontc);
-    text-decoration: underline;
+    text-decoration: none;
     opacity: 1;
     transition: all .8s ease;
 }
@@ -144,7 +152,7 @@ a:hover,
 a:active {
     opacity: .7;
     font-weight: normal;
-    text-decoration: none;
+    text-decoration: underline;
     outline: 0;
 }
 
