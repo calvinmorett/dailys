@@ -21,9 +21,5 @@ mainSections = ["posts"]
 headTitle = "index"
 
 [[params.socials]]
-name = "RSS"
-link = "/index.xml"
-
-[[params.socials]]
-name = "About"
-link = "https://www.calvinmorett.com"
+name = "Back"
+link = "javascript:history.back()"
