@@ -1,23 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Sorts+Mill+Goudy:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sorts+Mill+Goudy:ital@0;1&display=swap');
 
 
 :root {
-    --themebg: #222;
+    --themebg: #000;
     --theme-color: rgba(102, 204, 255, .8);
     --themefontc: #fff;
-    --themebuttbg: #6353bb;
-    --themebuttfontc: #d0bbbb;
-    --themefontlink: #ff0;
+    --themebuttbg: #664fe3;
+    --themebuttfontc: #b3b3b3;
+    --themefontlink: #ea5a5a;
 }
 /* selection */
 ::-moz-selection {
-    background-color: rgba(0, 0, 0, 0.75);
-    color: #FFF;
+    background-color: var(--themefontc);
+    color: var(--themebg);
     text-shadow: none;
 }
 ::selection {
-    background-color: rgba(0, 0, 0, 0.75);
-    color: #FFF;
+    background-color: var(--themefontc);
+    color: var(--themebg);
     text-shadow: none;
 }
 
@@ -29,11 +29,10 @@
 }
 html {
 
-    font-family: 'Roboto', Helvetica, Arial, Sans-Serif, sans-serif;
     font-size: 1em;
     line-height: 1.1875;
-    background: white;
-    color: black;
+    background-color: var(--themebg);
+    color: var(--themefontc);
     overflow-y: scroll;
     min-height: 100%;
     -moz-osx-font-smoothing: grayscale;
@@ -41,7 +40,8 @@ html {
     -webkit-tap-highlight-color: transparent;
 }
 html {
-    font-family: sans-serif;
+
+    font-family: Arial, sans-serif;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
 }
@@ -187,7 +187,7 @@ header {
     display: none;
 }
 .site-title {
-    border-top: 8px solid black;
+    border-top: 8px solid var(--themefontc);
     padding-top: 11px;
     font-size: 32px;
     line-height: 1;
@@ -269,7 +269,7 @@ header {
 }
 
 .site-footer {
-    border-top: 8px solid black;
+    border-top: 8px solid var(--themefontc);
     padding-top: 8px;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -280,10 +280,10 @@ header {
     margin-right: 12px;
     position: fixed;
     bottom: 20px;
-    padding:10px;
-    background:var(--themebuttbg);
-    background:var(--themebuttfontc);
-    display:block;
+    padding: 10px;
+    background: var(--themebuttbg);
+    background: var(--themebuttfontc);
+    display: block;
 }
 
 /* post */
@@ -338,7 +338,7 @@ header {
 }
 
 .post-content {
-    border-top: 8px solid black;
+    border-top: 8px solid var(--themefontc);
     padding-top: 8px;
     padding-top: 12px;
     margin-bottom: 50px;
@@ -357,8 +357,9 @@ header {
     font-size: 1rem;
     margin-bottom: 20px;
 }
-.post-content p em{
-font-family: 'Sorts Mill Goudy', serif;}
+.post-content p em {
+    font-family: 'Sorts Mill Goudy', serif;
+}
 
 .releated-content {
     border: 0;
@@ -392,30 +393,33 @@ font-family: 'Sorts Mill Goudy', serif;}
 
 
 /* taxonomy */
-.taxonomy-term {
+.taxonomy-term:before {
+    content: 'category';
+    display: block;
+    width: auto;
+    font-size: 11px;
+    background: var(--themefontc);
+    color: var(--themebg);
+    padding: 10px;
+    margin: 0 0 10px;
+    text-align: center;
+}
+
+.markdown-body {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    line-height: 1.5;
+    color: var(--themefontc);
+}
+.taxonomy-term h1 {
     display: block;
     font-size: 24px;
     text-transform: uppercase;
-    margin: 5px 0;
-    padding: 15px 0;
+    margin: 5px 0 0 0;
+    padding: 15px 0 0 0;
 }
-.taxonomy-term:before {
-    content:'category';
-    display:block;
-    width: auto;
-    font-size: 13px;
-    background:#000;
-    color:#fff;
-    padding:10px;
-    margin:0 0 10px;
-}
-.taxonomy-term h1{
-    padding:0;
-    margin:0;
-    display:block;
-}
-.posts-line{
-    padding:0;
+.posts-line {
+    padding: 0;
     margin: 12px 0;
 }
 /* gallery */
