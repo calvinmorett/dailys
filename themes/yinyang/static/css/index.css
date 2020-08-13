@@ -243,11 +243,6 @@ header {
     text-decoration: underline;
 }
 
-
-
-.posts-line {
-    margin: 12px 0;
-}
 .posts-categories {
     font-size: 11px;
     margin: auto;
@@ -398,9 +393,32 @@ header {
 
 /* taxonomy */
 .taxonomy-term {
-    font-size: 10pt;
+    display: block;
+    font-size: 24px;
+    text-transform: uppercase;
+    margin: 5px 0;
+    padding: 15px 0;
 }
-
+.taxonomy-term:before {
+    content:'category';
+    display:block;
+    width: auto;
+    font-size: 13px;
+    background:#000;
+    color:#fff;
+    padding:10px;
+    margin:0 0 10px;
+}
+.taxonomy-term h1{
+    padding:0;
+    margin:0;
+    display:block;
+}
+.posts-title,
+.posts-line{
+    padding:0;
+    margin:0;    
+}
 /* gallery */
 .gallery-img {
     text-align: center;
