@@ -1,15 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Sorts+Mill+Goudy:ital@0;1&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Sorts+Mill+Goudy:ital@0;1&display=swap');
 
 
 :root {
-    --themebg: #fff;
+    --themebg: #222;
     --theme-color: rgba(102, 204, 255, .8);
-    --themefontc: #0a0e24;
+    --themefontc: #fff;
     --themebuttbg: #6353bb;
     --themebuttfontc: #d0bbbb;
-    --themefontlink: #222224;
+    --themefontlink: #ff0;
 }
 /* selection */
 ::-moz-selection {
@@ -359,6 +357,8 @@ header {
     font-size: 1rem;
     margin-bottom: 20px;
 }
+.post-content p em{
+font-family: 'Sorts Mill Goudy', serif;}
 
 .releated-content {
     border: 0;
