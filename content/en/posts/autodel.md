@@ -12,7 +12,12 @@ tags = [
 featured_image = "/images/delete.jpg"
 date = "2020-08-14"
 categories = [
-    "automation"
+    "autohotkey",
+    "automation",
+    "utility",
+    "process",
+    "css",
+    "stylus"
 ]
 menu = "main"
 +++
