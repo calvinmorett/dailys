@@ -3,12 +3,27 @@ layout: post
 title: Image analysis with Adobe Lightroom
 ---
 
-{{ page.title }}
-================
-<!--Available Meta Tags: Code, Design, Networking, Adobe, Software, Excel, Bookmarklet, Tutorial, Utility, Graphics, Image Analysis, Sorting, Marketing -->
-<p class="meta">Software, Adobe, Sorting</p>
++++
+title = "Should I use Adobe Lightroom for Image Analysis?"
+description = "Adobe Lightroom for Image Analysis?"
+tags = [
+    "adobe",
+    "automation",
+    "utility",
+    "process",
+    "analysis",
+    "lightroom",
+    "sorting",
+]
+featured_image = "/images/-lightroom-hero.jpg"
+date = "2019-11-22"
+categories = [
+    "analysis"
+]
+menu = "main"
++++
 
-![Adobe Lightroom Hero](/images/-lightroom-hero.jpg "lol your film is overexposed cause it is not a darkroom")
+Does Lightroom do stuff I need it to?
 
 ### Is there photo analysis software which will pre-sort images by identifying potential technical problems?
 [StackExchange Thread](https://photo.stackexchange.com/questions/20432/is-there-photo-analysis-software-which-will-pre-sort-images-by-identifying-poten)
