@@ -255,11 +255,10 @@ header {
 .posts-categories {
     font-size: 11px;
     margin: auto;
-    text-align: center;
 }
 .posts-category a:link,
 .posts-category a:visited {
-    padding: 3px;
+    padding: 5px;
     margin-bottom: 3px;
     box-shadow: none;
     transition: none;
