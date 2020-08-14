@@ -11,6 +11,9 @@ featured_image = "/images/htmlmd.jpg"
 date = "2020-08-12"
 categories = [
     "python",
+    "code",
+    "utility",
+    "process"
 ]
 menu = "main"
 +++
