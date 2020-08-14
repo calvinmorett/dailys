@@ -15,7 +15,7 @@ tags = [
     "ui"
 ]
 featured_image = "/images/-stylus-hero.jpg"
-date = "2019-19-11"
+date = "2019-11-19"
 categories = [
     "utility"
 ]
