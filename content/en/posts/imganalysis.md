@@ -18,7 +18,7 @@ categories = [
 menu = "main"
 +++
 
-You may be surprised about what Adobe Lightroom can do with image analysis
+You may be surprised about what Adobe Lightroom can do to assist with image analysis
 
 ### Is there photo analysis software which will pre-sort images by identifying potential technical problems?
 [StackExchange Thread](https://photo.stackexchange.com/questions/20432/is-there-photo-analysis-software-which-will-pre-sort-images-by-identifying-poten)
