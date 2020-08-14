@@ -20,8 +20,8 @@ menu = "main"
 
 Quickly delete files with AutoHotKey and some CSS
 
-1. Navigate to your GitHub directory where you need to delete files
-2. Add/Edit CSS of GitHub; using Stylus
+## 1. Navigate to your GitHub directory where you need to delete files
+## 2. Add/Edit CSS of GitHub; using Stylus
 ```
 /* Changes the alert at the top, to position it absolutely */
 /* so it doesn't move the page down, from the static setup, */
@@ -46,16 +46,16 @@ Quickly delete files with AutoHotKey and some CSS
 
 ```
 
-3. Set up AutoHotKey Binds
+## 3. Set up AutoHotKey Binds
 - Bind a key to 'Get Mouse Position & Add Action'
 - Bind a key to 'Get Mouse Cursor Position'
 - Bind a key to 'Start / Stop Script Execution'
 
-4. Set up Static GitHub Directory Browser Window
+## 4. Set up Static GitHub Directory Browser Window
 - Prefer it's own monitor with no obstructions
 - Fullscreen, something that never really changes; static setup that AutoHotKey can do easily
 
-5. Set up AutoHotKey Positions and Actions
+## 5. Set up AutoHotKey Positions and Actions
 - Use your bind to 'Get Mouse Position & Add Action'(GMPAA) and bind Left Click.
 - Use your bind for 'GMPAA' and use it over the file you want deleted. I recommend playing with the delays and I tend to always add 2 Left clicks on the same position just in case the first one doesn't register. 
 - Your page load times will vary but I feel like if a delay of 700+ works well.
@@ -66,12 +66,12 @@ Quickly delete files with AutoHotKey and some CSS
 - After Commiting changes, a box should appear in the directory you're redirected to after deleting a file from, saying: File successfully deleted.
 - The CSS changes this positioning to put it at the bottom of the page, which helps in automating the rest of the process, as it needs to maintain the static setup. New alerts will just be at the bottom of the page now, without interfering with the positioning on the static page setup.
 
-6. Make sure that AutoHotKey is doing everything itself by iterating over the parts it needs help with.
+## 6. Make sure that AutoHotKey is doing everything itself by iterating over the parts it needs help with.
 - Add delays to compensate for page load times.
 - Add two left clicks on each part where you'll need to click, the file from the directory, delete icon/button, and commit changes button.
 
-7. Add a repeat count in AutoHotKey, for the number of files in the directory you need deleted. 
+## 7. Add a repeat count in AutoHotKey, for the number of files in the directory you need deleted. 
 - If you have files you don't want deleted in the same directory and you've renamed them at the bottom with zfilename, then be careful you set a good repeat count you can self manage. The point of this is so you can walk away from a large deletion project.
 So I recommend you put the files, if you do need to keep them, at the top of the directory. To maintain position of the static setup.
 
-8. Walk away
+## 8. Walk away
