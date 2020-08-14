@@ -1,10 +1,6 @@
----
-layout: post
-title: Using Stylus, a Browser Extension
----
 +++
-title = "Easily make an Excel Macro"
-description = "Recording a Filter Macro in Excel"
+title = "Using Stylus, a Browser Extension"
+description = "The user experience is yours"
 tags = [
     "tutorial",
     "code",
@@ -14,7 +10,9 @@ tags = [
     "extensions",
     "chrome",
     "firefox",
-    "stylus"
+    "stylus",
+    "ux",
+    "ui"
 ]
 featured_image = "/images/-stylus-hero.jpg"
 date = "2019-19-11"
@@ -24,7 +22,7 @@ categories = [
 menu = "main"
 +++
 
-Make your best user experience, for yourself
+The best user experience, is self made
 
 ![Stylus Hero](/images/-stylus-hero.jpg "I love this team, but what is their mascot?")
 
