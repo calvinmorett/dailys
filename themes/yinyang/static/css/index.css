@@ -86,15 +86,19 @@ body {
     text-decoration: none;
 }
 
+
 .site-date-catalog {
     display: block;
-    font-size: 10px;
-    padding: 10px 10px;
-    border: 1px solid;
+    font-size: 0px;
+    padding:0;
     font-weight: bold;
+    border:0;
     letter-spacing: 1px;
-    margin: 4em 0 2px;
+    margin:20px 0;
     text-align: left;
+    text-indent:-9999999999999px;
+    height:1px;
+    background:var(--themefontc);
 }
 h1 {
     font-size: 32px;
@@ -512,6 +516,6 @@ img {
     .col-sm-offset-8,
     .col-sm-offset-9{
         padding-right: 0;
-        padding-left: 1em;
+        padding-left: 0;
     }
 }
