@@ -164,7 +164,7 @@ a:visited {
 
 a:hover,
 a:active {
-    opacity:1;
+    opacity: 1;
     font-weight: normal;
     text-decoration: underline;
     outline: 0;
@@ -246,7 +246,7 @@ header {
     font-size: 18px;
 }
 .posts-title a:hover,
-.posts-title a:active {    
+.posts-title a:active {
     background: var(--themebuttonfontc);
     text-decoration: underline;
 }
@@ -332,7 +332,6 @@ header {
     margin-top: 0;
     border-top: 0 solid var(--themefontc);
     padding-top: 0;
-    margin-top: 0;
     margin-bottom: 50px;
     overflow: hidden;
 }
@@ -348,10 +347,6 @@ header {
     font-size: 1rem;
     margin-bottom: 20px;
 }
-.post-content p em {
-    font-family: 'Sorts Mill Goudy', serif;
-}
-
 .releated-content {
     border: 0;
     border-top: 8px solid;
@@ -514,19 +509,19 @@ img {
     border-top: 0 solid var(--themefontc);
     padding-top: 0;
     margin-top: 0;
-    margin-bottom:10px;
+    margin-bottom: 10px;
     overflow: hidden;
 }
 .post-content:after {
-    text-transform:capitalize;
-    content:'tags';
-    width:100%;
-    text-align:left;
-    display:block;
+    text-transform: capitalize;
+    content: 'tags';
+    width: 100%;
+    text-align: left;
+    display: block;
     color: var(--themefontc);
-    margin:20px 0 0;
-    padding:10px 0 0;
-    font-weight:bold;
+    margin: 20px 0 0;
+    padding: 10px 0 0;
+    font-weight: bold;
 }
 .post-content:after {
     text-transform: capitalize;
@@ -569,6 +564,12 @@ img {
     overflow: hidden;
     height: 17px;
 }
-.row .posts-category:first-child{
-    margin-bottom:60px;
+.row .posts-category:first-child {
+    margin-bottom: 60px;
+}
+.posts-title {
+    font-weight: bold;
+    font-size: 18px;
+    overflow: hidden;
+    height: 20px;
 }
