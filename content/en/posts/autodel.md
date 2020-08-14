@@ -75,3 +75,4 @@ Quickly delete files with AutoHotKey and some CSS
 So I recommend you put the files, if you do need to keep them, at the top of the directory. To maintain position of the static setup.
 
 ## 8. Walk away
+![Autohotkey in action](/themes/yinyang/static/images/autohotdely.gif)
