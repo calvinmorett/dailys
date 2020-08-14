@@ -10,7 +10,7 @@ tags = [
     "stylus"
 ]
 featured_image = "/images/delete.jpg"
-date = "2020-14-08"
+date = "2020-08-14"
 categories = [
     "automation"
 ]
