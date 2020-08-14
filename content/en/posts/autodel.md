@@ -57,7 +57,7 @@ Quickly delete files with AutoHotKey and some CSS
 - Bind a key to 'Start / Stop Script Execution'
 
 ## 4. Set up Static GitHub Directory Browser Window
-- Prefer it's own monitor with no obstructions
+- Prefer its own monitor with no obstructions
 - Fullscreen, something that never really changes; static setup that AutoHotKey can do easily
 
 ## 5. Set up AutoHotKey Positions and Actions
