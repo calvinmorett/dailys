@@ -17,7 +17,17 @@ tags = [
 featured_image = "/images/-stylus-hero.jpg"
 date = "2019-11-19"
 categories = [
-    "utility"
+    "utility",
+    "tutorial",
+    "code",
+    "css",
+    "design",
+    "extensions",
+    "chrome",
+    "firefox",
+    "stylus",
+    "ux",
+    "ui"
 ]
 menu = "main"
 +++
