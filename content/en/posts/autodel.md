@@ -65,6 +65,7 @@ Quickly delete files with AutoHotKey and some CSS
 - This is where the CSS edit comes into play, use your 'GMPAA' bind on the Commit changes button.
 - After Commiting changes, a box should appear in the directory you're redirected to after deleting a file from, saying: File successfully deleted.
 - The CSS changes this positioning to put it at the bottom of the page, which helps in automating the rest of the process, as it needs to maintain the static setup. New alerts will just be at the bottom of the page now, without interfering with the positioning on the static page setup.
+
 ![Autohotkey setup](/images/authot.png)
 
 ## 6. Make sure that AutoHotKey is doing everything itself by iterating over the parts it needs help with.
