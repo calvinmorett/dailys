@@ -559,11 +559,6 @@ img {
 .post-category:hover {
     background: var(--themebuttfontc);
 }
-.releated-content {
-    border: 0;
-    border-top: 8px solid;
-    color: var(--themefontc);
-    padding: 0;
-    margin-bottom: 0;
-    margin-top: 50px;
+.releated-content li:hover {
+    background: var(--themebuttbg);
 }
