@@ -257,12 +257,6 @@ header {
     margin: auto;
     text-align: center;
 }
-.posts-category {
-    padding: 0;
-    border: 0;
-    padding-top: 4px;
-    font-size: 9px;
-}
 .posts-category a:link,
 .posts-category a:visited {
     padding: 3px;
@@ -510,10 +504,10 @@ img {
     }
 }
 
-.post-category {
+.posts-category {
     display: inline;
     font-weight: 900;
-    padding: 2px;
+    padding: 0;
     color: var(--themefontc);
     font-size: 9px;
     border: 0;
