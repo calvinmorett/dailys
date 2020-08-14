@@ -12,6 +12,10 @@ featured_image = "/images/-popup-hero.jpg"
 date = "2019-11-08"
 categories = [
     "utility",
+    "code",
+    "bookmarklet",
+    "tutorial",
+    "marketing"
 ]
 menu = "main"
 +++
