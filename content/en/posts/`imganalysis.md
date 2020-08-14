@@ -1,8 +1,3 @@
---- 
-layout: post
-title: Image analysis with Adobe Lightroom
----
-
 +++
 title = "Should I use Adobe Lightroom for Image Analysis?"
 description = "Adobe Lightroom for Image Analysis?"
