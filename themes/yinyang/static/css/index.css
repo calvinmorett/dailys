@@ -563,3 +563,12 @@ img {
 .releated-content li:hover {
     background: var(--themebuttbg);
 }
+.posts-title {
+    font-weight: bold;
+    font-size: 18px;
+    overflow: hidden;
+    height: 17px;
+}
+.row .posts-category:first-child{
+    margin-bottom:60px;
+}
