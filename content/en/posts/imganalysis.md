@@ -1,6 +1,6 @@
 +++
-title = "Should I use Adobe Lightroom for Image Analysis?"
-description = "Adobe Lightroom for Image Analysis?"
+title = "Image Analysis & Adobe Lightroom"
+description = "Should I use Adobe Lightroom for Image Analysis?"
 tags = [
     "adobe",
     "automation",
@@ -18,7 +18,7 @@ categories = [
 menu = "main"
 +++
 
-Does Lightroom do stuff I need it to?
+You may be surprised about what Adobe Lightroom can do with image analysis
 
 ### Is there photo analysis software which will pre-sort images by identifying potential technical problems?
 [StackExchange Thread](https://photo.stackexchange.com/questions/20432/is-there-photo-analysis-software-which-will-pre-sort-images-by-identifying-poten)
