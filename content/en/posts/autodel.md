@@ -22,7 +22,7 @@ Quickly delete files with AutoHotKey and some CSS
 
 1. Navigate to your GitHub directory where you need to delete files
 2. Add/Edit CSS of GitHub; using Stylus
-`
+```
 /* Changes the alert at the top, to position it absolutely */
 /* so it doesn't move the page down, from the static setup, */
 /* you'll be using with AutoHotKey **/
@@ -44,7 +44,8 @@ Quickly delete files with AutoHotKey and some CSS
 #js-repo-pjax-container > div.container-xl.clearfix.new-discussion-timeline.px-3.px-md-4.px-lg-5 > div > div.Box.mt-3.position-relative > div.Box-header.py-2.d-flex.flex-column.flex-shrink-0.flex-md-row.flex-md-items-center > div.d-flex.py-1.py-md-0.flex-auto.flex-order-1.flex-md-order-2.flex-sm-grow-0.flex-justify-between > div:nth-child(2) > form:nth-child(3) > button{box-shadow:inset 0 0 0 20px red, 0 0 0 5px red;}
 .octicon-trashcan{color:#fff;}
 
-`
+```
+
 3. Set up AutoHotKey Binds
 - Bind a key to 'Get Mouse Position & Add Action'
 - Bind a key to 'Get Mouse Cursor Position'
