@@ -528,3 +528,42 @@ img {
     padding:10px 0 0;
     font-weight:bold;
 }
+.post-content:after {
+    text-transform: capitalize;
+    content: 'tags';
+    width: 100%;
+    text-align: left;
+    display: block;
+    color: var(--themefontc);
+    margin: 20px 0 0;
+    padding: 10px 0 0;
+    font-weight: bold;
+    letter-spacing: 0;
+    font-size: 24px;
+    font-size: 1.5rem;
+    line-height: 1.3;
+    border: 0;
+    border-top: 8px solid;
+    margin-top: 50px;
+}
+.post-category {
+    display: inline-block;
+    margin: 0 10px 0 0;
+    border-radius: 8px;
+    padding: 4px 12px;
+    background: var(--themebuttbg);
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+}
+.post-category:hover {
+    background: var(--themebuttfontc);
+}
+.releated-content {
+    border: 0;
+    border-top: 8px solid;
+    color: var(--themefontc);
+    padding: 0;
+    margin-bottom: 0;
+    margin-top: 50px;
+}
