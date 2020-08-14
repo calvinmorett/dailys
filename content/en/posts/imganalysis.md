@@ -11,7 +11,7 @@ tags = [
     "sorting",
 ]
 featured_image = "/images/-lightroom-hero.jpg"
-date = "2019-11-22"
+date = "2019-01-12"
 categories = [
     "analysis"
 ]
