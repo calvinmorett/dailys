@@ -8,12 +8,18 @@ tags = [
     "process",
     "analysis",
     "lightroom",
-    "sorting",
+    "sorting"
 ]
 featured_image = "/images/-lightroom-hero.jpg"
 date = "2019-01-12"
 categories = [
-    "analysis"
+    "analysis",
+    "adobe",
+    "automation",
+    "utility",
+    "process",
+    "lightroom",
+    "sorting"
 ]
 menu = "main"
 +++
