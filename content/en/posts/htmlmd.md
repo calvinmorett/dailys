@@ -16,8 +16,9 @@ menu = "main"
 +++
 
 
-Quick idea: Make an HTML to Markdown converter.
+Quick idea
 
-1. make an html page with all elements
-2. python convert html to md equal element-code
-3. save as .md
+## Make an HTML to Markdown converter.
+- make an html page with all elements
+- python convert html to md equal element-code
+- save as .md
