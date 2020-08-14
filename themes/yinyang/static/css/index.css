@@ -462,3 +462,9 @@ img {
 .col-sm-10 {
     padding: 0;
 }
+.markdown-body table {
+    display: block;
+    width: 100%;
+    overflow: auto;
+    color: #000;
+}
