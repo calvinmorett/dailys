@@ -17,7 +17,7 @@ tags = [
 featured_image = "/images/-stylus-hero.jpg"
 date = "2019-19-11"
 categories = [
-    "code"
+    "utility"
 ]
 menu = "main"
 +++
