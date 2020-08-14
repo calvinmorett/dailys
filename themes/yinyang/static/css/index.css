@@ -502,9 +502,7 @@ img {
         padding-left: 0;
     }
 }
-
 .posts-category {
-    display: inline;
     font-weight: 900;
     padding: 0;
     color: var(--themefontc);
@@ -512,4 +510,22 @@ img {
     border: 0;
     padding-top: 4px;
     text-align: right;
+}
+.post-content {
+    border-top: 0 solid var(--themefontc);
+    padding-top: 0;
+    margin-top: 0;
+    margin-bottom:10px;
+    overflow: hidden;
+}
+.post-content:after {
+    text-transform:capitalize;
+    content:'tags';
+    width:100%;
+    text-align:left;
+    display:block;
+    color: var(--themefontc);
+    margin:20px 0 0;
+    padding:10px 0 0;
+    font-weight:bold;
 }
