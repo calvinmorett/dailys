@@ -373,7 +373,6 @@ header {
 }
 .releated-content li a:hover,
 .releated-content li a:active {
-    background: var(--theme-color);
     color: var(--themefontc);
 }
 
