@@ -2,11 +2,29 @@
 layout: post
 title: Using Stylus, a Browser Extension
 ---
++++
+title = "Easily make an Excel Macro"
+description = "Recording a Filter Macro in Excel"
+tags = [
+    "tutorial",
+    "code",
+    "css",
+    "utility",
+    "design",
+    "extensions",
+    "chrome",
+    "firefox",
+    "stylus"
+]
+featured_image = "/images/-stylus-hero.jpg"
+date = "2019-19-11"
+categories = [
+    "code"
+]
+menu = "main"
++++
 
-{{ page.title }}
-================
-<!--Available Meta Tags: CSS, Code, Applet, Tutorial, Utility, Design, Extensions, Marketing -->
-<p class="meta">CSS, Tutorial, Code, Utility, Design, Extensions</p>
+Make your best user experience, for yourself
 
 ![Stylus Hero](/images/-stylus-hero.jpg "I love this team, but what is their mascot?")
 
@@ -38,5 +56,3 @@ Use stylus to edit the pages you're seeing errors in Google Dev tools. While you
 ![Stylus Example](/images/stylus-example.gif "Change colors, without having to remember hex codes, everything you can do with CSS it is easier with Stylus")
 
 _**Above:** As you can see, the `.site` class in my CSS was showing `min-width: 50vw` and skewing columns when the site was a little smaller. So in this case, I used it to edit this down on the fly and make sure if you had a smaller browser, then the site wouldn't look totally messed up. To fix this, I removed the `min-width` and made it the max-width, then set the min-width to something I was comfortable with visually. All without having to save the style.css and refresh the site to see if it's where I want it. In the future I plan on posting about some of the popular sites edits that I use, and make some of the sites more enjoyable._
-
-_Play around with Stylus and email me if you think you have a cool style for a website that I might enjoy!_
