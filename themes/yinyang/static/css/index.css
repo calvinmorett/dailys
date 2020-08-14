@@ -90,15 +90,15 @@ body {
 .site-date-catalog {
     display: block;
     font-size: 0px;
-    padding:0;
+    padding: 0;
     font-weight: bold;
-    border:0;
+    border: 0;
     letter-spacing: 1px;
-    margin:20px 0;
+    margin: 20px 0;
     text-align: left;
-    text-indent:-9999999999999px;
-    height:1px;
-    background:var(--themefontc);
+    text-indent: -9999999999999px;
+    height: 1px;
+    background: var(--themefontc);
 }
 h1 {
     font-size: 32px;
@@ -320,16 +320,6 @@ header {
 .post-header {
     margin-bottom: 10px;
 }
-.post-category {
-    display: inline;
-    font-weight: 900;
-    padding: 2px;
-    color: var(--themefontc);
-    border: 0;
-    padding-top: 4px;
-    font-size: 9px;
-    text-align: right;
-}
 .post-date,
 .posts-date {
     font-weight: normal;
@@ -514,8 +504,19 @@ img {
     .col-sm-offset-6,
     .col-sm-offset-7,
     .col-sm-offset-8,
-    .col-sm-offset-9{
+    .col-sm-offset-9 {
         padding-right: 0;
         padding-left: 0;
     }
+}
+
+.post-category {
+    display: inline;
+    font-weight: 900;
+    padding: 2px;
+    color: var(--themefontc);
+    font-size: 9px;
+    border: 0;
+    padding-top: 4px;
+    text-align: right;
 }
