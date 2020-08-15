@@ -25,3 +25,10 @@ Quick idea
 - make an html page with all elements
 - python convert html to md equal element-code
 - save as .md
+
+```
+import re
+
+txt = "<h1>Headline H1</h1>"
+x = re.search("^<h1>.*</h1>$", txt)
+```
