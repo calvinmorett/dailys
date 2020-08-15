@@ -9,7 +9,9 @@
     --themebuttfontc: #b3b3b3;
     --themefontlink: #ea5a5a;
     --themeaccent: #b7ff00;
+    --themeaccent2: #ffbd7a;
 }
+
 /* selection */
 ::-moz-selection {
     background-color: var(--themefontc);
@@ -558,4 +560,12 @@ img {
     text-align: left;
     text-indent: -9999999999999px;
     height: 1px;
+}
+
+.post-content p a,
+.post-content p a:link{
+    color:var(--themeaccent);
+}
+.post-content p a:visited{
+    color:var(--themeaccent2);
 }
