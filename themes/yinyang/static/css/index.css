@@ -85,20 +85,6 @@ body {
     text-decoration: none;
 }
 
-
-.site-date-catalog {
-    display: block;
-    font-size: 0px;
-    padding: 0;
-    font-weight: bold;
-    border: 0;
-    letter-spacing: 1px;
-    margin: 20px 0;
-    text-align: left;
-    text-indent: -9999999999999px;
-    height: 1px;
-    background: var(--themefontc);
-}
 h1 {
     font-size: 32px;
     font-size: 2rem;
