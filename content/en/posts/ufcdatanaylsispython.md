@@ -21,7 +21,7 @@ menu = "main"
 
 Predicting Fights
 
-The projects compares stats of fighters. With this comparison I would like to see if fighter stats correlate into more wins vs a lesser opponent, and see which stats need to be weighed more when you try to calculate a fight prediction from statlines.
+The projects aim is to be able to compare stats of fighters. With this comparison I would like to see if fighter stats correlate into more wins vs a lesser opponent, and see which stats need to be weighed more when you try to calculate a fight prediction from statlines.
 
 You can find all of the files used in this project on GitHub:
 https://github.com/calvinmorett/finalacc
