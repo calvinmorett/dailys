@@ -1,6 +1,6 @@
 +++
 title = "UFC Data Analysis"
-description = ""
+description = "UFC Data Analysis with Python"
 tags = [
     "python",
     "ufc",
@@ -18,6 +18,14 @@ categories = [
 ]
 menu = "main"
 +++
+
+Predicting Fights
+
+The projects compares stats of fighters. With this comparison I would like to see if fighter stats correlate into more wins vs a lesser opponent, and see which stats need to be weighed more when you try to calculate a fight prediction from statlines.
+
+You can find all of the files used in this project on GitHub:
+https://github.com/calvinmorett/finalacc
+
 
 ![View](/images/ufcdata/ufc-calvin-1.jpg"...")
 ![View](/images/ufcdata/ufc-calvin-2.jpg"...")
