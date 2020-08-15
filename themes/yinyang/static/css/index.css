@@ -355,7 +355,7 @@ header {
 .releated-content li a:link,
 .releated-content li a:visited {
     display: block;
-    padding: 4px;
+    padding: 11px;
 }
 .releated-content li a:hover,
 .releated-content li a:active {
