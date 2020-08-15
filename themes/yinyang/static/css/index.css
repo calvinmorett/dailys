@@ -339,7 +339,7 @@ header {
     color: var(--themefontc);
     padding: 0;
     margin-bottom: 0;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 .releated-content ul {
     margin: 0;
@@ -347,10 +347,10 @@ header {
 }
 
 .releated-content li {
-    margin: 5px 0;
-    padding: 8px 0 4px;
+    margin: 0;
+    padding: 0;
     list-style: none;
-    border-bottom: 1px solid;
+    border-bottom: 0;
 }
 .releated-content li a:link,
 .releated-content li a:visited {
@@ -433,17 +433,6 @@ img {
     width: 100%;
     overflow: auto;
     color: #000;
-}
-.releated-content ul {
-    margin: 0;
-    padding: 0;
-    display: block;
-}
-.releated-content li {
-    margin: 10px 0;
-    padding: 0;
-    list-style: none;
-    border-bottom: 0;
 }
 .col-xs-10 {
     -ms-flex-preferred-size: 100%;
