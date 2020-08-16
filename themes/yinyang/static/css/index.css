@@ -366,21 +366,9 @@ header {
 
 
 /* taxonomy */
-.taxonomy-term:after {
-    content: 'related';
-    /* display: block; */
-    /* width: auto; */
-    /* font-size: 11px; */
-    /* background: var(--themefontc); */
-    /* color: var(--themebg); */
-    /* padding: 10px; */
-    margin: 0 0 0 10px;
-    /* text-align: center; */
-}
-
 .taxonomy-term h1 {
     display: block;
-    font-size: 24px;
+    font-size: 16px;
     margin: 5px 0 0 0;
     padding: 15px 0 0 0;
 }
