@@ -366,30 +366,29 @@ header {
 
 
 /* taxonomy */
-.taxonomy-term:before {
-    content: 'category';
-    display: block;
-    width: auto;
-    font-size: 11px;
-    background: var(--themefontc);
-    color: var(--themebg);
-    padding: 10px;
-    margin: 0 0 10px;
-    text-align: center;
+.taxonomy-term:after {
+    content: 'related';
+    /* display: block; */
+    /* width: auto; */
+    /* font-size: 11px; */
+    /* background: var(--themefontc); */
+    /* color: var(--themebg); */
+    /* padding: 10px; */
+    margin: 0 0 0 10px;
+    /* text-align: center; */
 }
 
+.taxonomy-term h1 {
+    display: block;
+    font-size: 24px;
+    margin: 5px 0 0 0;
+    padding: 15px 0 0 0;
+}
 .markdown-body {
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
     line-height: 1.5;
     color: var(--themefontc);
-}
-.taxonomy-term h1 {
-    display: block;
-    font-size: 24px;
-    text-transform: uppercase;
-    margin: 5px 0 0 0;
-    padding: 15px 0 0 0;
 }
 .posts-line {
     padding: 0;
