@@ -8,7 +8,7 @@
       <div class="col-xs-12">
         {{ partial "header.html" . }}
 
-        <h1 class="taxonomy-term" style="text-transform: capitalize;">{{.Data.Term}}</h1>
+        <h1 class="taxonomy-term">These posts were tagged "{{.Data.Term}}":</h1>
         <div id="posts-list">
           {{ range (where .Data.Pages "Type" "in" site.Params.mainSections).GroupByDate "2006" -}}
           <section>
